@@ -3,17 +3,21 @@ package bytebank;
 public class TestaMetodo {
 	
 	public static void main(String[] args) {
-		Conta conta = new Conta();
 		
-		conta.nome = "Conta corrente do Silcleiverson";
-		conta.saldo = 100;
-		System.out.println("O saldo da conta" + conta.nome + " é: R$" + conta.saldo);
+		Conta contaDoJose = new Conta();
 		
-		conta.deposita(50);
-		System.out.println("Foi recebido um depósito da " + conta.nome + " e o valor agora é: R$" + conta.saldo);
+		contaDoJose.deposita(800);
+		System.out.println("O saldo da conta José é: R$" + contaDoJose.saldo);
 		
-		conta.saca(70);
-		System.out.println("Foi realizado um saque de: R$70 reais e o saldo atual é: R$" + conta.saldo);
+		Conta contaDoJoao = new Conta();
+		contaDoJoao.deposita(1000);
+		System.out.println("O saldo da conta do João é: R$" + contaDoJoao.saldo);
+		
+		if(contaDoJoao.transfere(200, contaDoJose)) {
+			System.out.println("Transferência realizada com sucesso");
+		} else {
+			System.out.println("Saldo insulficiente");
+		}
 
 	}
 
