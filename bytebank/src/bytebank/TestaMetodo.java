@@ -10,6 +10,9 @@ public class TestaMetodo {
 		
 		conta.deposita(50);
 		System.out.println("Saldo atual agora é: R$" + conta.saldo);
+		
+		conta.saca(70);
+		System.out.println("Saldo atual é: R$" + conta.saldo);
 
 	}
 
