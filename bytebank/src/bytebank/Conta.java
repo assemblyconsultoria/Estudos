@@ -11,5 +11,9 @@ public class Conta {
 		this.saldo = this.saldo + valor;
 		
 	}
+	
+	public void saca(double valor) {
+		this.saldo = this.saldo - valor;
+	}
 
 }
