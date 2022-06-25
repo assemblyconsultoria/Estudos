@@ -18,6 +18,10 @@ public class TestaMetodo {
 		} else {
 			System.out.println("Saldo insulficiente");
 		}
+		
+		Conta contaDaMarcela = new Conta();
+		contaDaMarcela.titular = new Cliente();
+		contaDaMarcela.titular.nome = "Marcela";
 
 	}
 
