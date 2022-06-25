@@ -3,8 +3,5 @@
         "include": [
             "lib/**/*.jar"
         ],
-        "exclude": [
-            "/home/fabio/Downloads/lombok.jar"
-        ]
     }
 }
