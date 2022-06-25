@@ -10,6 +10,7 @@ public class TesteFuncionario {
 		
 		System.out.println(fabio.getNome());
 		System.out.println(fabio.getSalario());
+		System.out.println(fabio.getBonificacao());
 		
 		Gerente g1 = new Gerente();
 		g1.setNome("Luis Claudio");
@@ -20,6 +21,7 @@ public class TesteFuncionario {
 		System.out.println(g1.getNome());
 		System.out.println(g1.getCpf());
 		System.out.println(g1.getSalario());
+		System.out.println(g1.getBonificacao());
 		
 
 	}
