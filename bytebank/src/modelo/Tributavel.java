@@ -1,4 +1,4 @@
-package bytebank;
+package modelo;
 
 public interface Tributavel {
 	

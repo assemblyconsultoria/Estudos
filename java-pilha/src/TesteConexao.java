@@ -1,12 +1,11 @@
 
 public class TesteConexao {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
 		try(Conexao conexao = new Conexao()){
 			conexao.leDados();
 		}
-		
 		
 		
 // Modo antes da versão do Java7		

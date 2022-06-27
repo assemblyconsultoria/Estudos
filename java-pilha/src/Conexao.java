@@ -11,7 +11,7 @@ public class Conexao implements AutoCloseable {
 	}
 	
 	@Override
-	public void close() {
+	public void close() throws Exception {
 		System.out.println("Fecha conexao");
 		
 	}

@@ -1,4 +1,9 @@
-package bytebank;
+package teste;
+
+import modelo.ContaCorrente;
+import modelo.ContaPoupanca;
+import modelo.SaldoInsulficienteException;
+
 
 public class TestesContas {
 
